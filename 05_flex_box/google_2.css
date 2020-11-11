@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gmail {
+    padding-right: 7px;
+    color: black;
+}
+
+.imagenes {
+    padding-right: 7px;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.button1 {
+    margin-left: 15px;
+}
+
+.parrafo1 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 230px;
+}
+
+.parrafo2 {
+    background-color: #f0efef;
+    color: #8a8888;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.footer {
+    background-color: #f0efef;
+    color: #8a8888;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu1 {
+    padding-left: 30px;
+}
+
+.menu2 {
+    padding-right: 30px;
+}
+
+span {
+    color: #8a8888;
+}
+
+.class1 {
+    padding-right: 10px;
+}
+
+.class2 {
+    padding-right: 10px;
+}
+
+.class3 {
+    padding-right: 10px;
+}
+
+.class4 {
+    padding-right: 10px;
+}
+
+.class5 {
+    padding-right: 10px;
+}
+
+.class6 {
+    padding-right: 10px;
+}
+
+.class7 {
+    padding-right: 10px;
+}

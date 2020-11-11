@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>Qué pizza quieres?</p>
+        <input placeholder="Nombre de Pizza" type="text" id="Pizza">
+        <input placeholder="Ingredientes Extra" type="text" list="Ingredientes"/>
+        <datalist id="Ingredientes">
+            <option>Jamon</option>
+            <option>peperoni</option>
+            <option>champiñones</option>
+            <option>Salami</option>
+            <option>Salchicha</option>
+            <option>Pastor</option>
+        </datalist>
+        <fieldset id="group1">
+            <span>Orilla de queso</span>
+            <input type="radio" value="true" name="group1">
+         </fieldset>
+         <p>Tiempo de entrega (min)</p>
+        <input placeholder="Fecha de entrega" type="range" list="tiempo" min="0" max="60">
+        <datalist id="Tiempo de Entrega">
+            <option value="0">
+            <option value="10">
+            <option value="20">
+            <option value="30">
+            <option value="40">
+            <option value="50">
+            <option value="60">
+        </datalist>
+        <p>Fecha de entrega</p>
+        <input placeholder="Fecha de entrega" type="date" name="" id="">
+        <p>Indicaciones especiales</p>
+        <textarea name="" id="" cols="30" rows="10">
+
+        </textarea>
+    
+        <input type="submit" value="Enviar">
+    
+    </form>
+    
+</body>
+</html>

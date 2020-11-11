@@ -1,0 +1,77 @@
+
+body {
+    display: flex;
+}
+
+.padre {
+    background-color: blue;
+    height: 500px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.madre {
+    background-color: blue;
+    height: 500px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+
+.hijo {
+    background-color: white;
+    height: 220px;
+    width: 220px;
+}
+
+.hijo2 {
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nieto {
+    background-color: red;
+    height: 190px;
+    width: 190px;
+}
+
+.nieto2 {
+    background-color: red;
+    height: 190px;
+    width: 190px;
+}
+
+.hijo3 {
+    background-color: white;
+    height: 220px;
+    width: 520px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hijo4 {
+    background-color: white;
+    height: 220px;
+    width: 520px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nieto3 {
+    background-color: red;
+    height: 190px;
+    width: 490px;
+}
+
+.nieto4 {
+    background-color: red;
+    height: 190px;
+    width: 490px;
+}

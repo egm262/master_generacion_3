@@ -1,0 +1,11 @@
+1 Barra navegacion 
+    3 botones de izquierda (Roy)
+    Barra busqueda (EDGAR)
+    3 botones de la derecha (Charly)
+    Flechita con todo el menu (Leo)
+
+Body
+
+
+    
+https://www.youtube.com/watch?v=R3-HfPr-hjM
